@@ -1,0 +1,97 @@
+html{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+body {
+    margin: 0;
+}
+
+p {
+    margin-right: 2em;
+    font-size: 13px;
+    line-height: 13px;
+    font-weight: 500;
+}
+h1 {
+    margin: 0px 400px;
+    text-align: center;
+}
+button.redondo {
+    box-sizing: border-box;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 2em;
+    padding: 0 1.2em;
+    height: 2.2em;
+    font-size: 1em;
+}
+/* button{
+    display: flex;
+    align-items: center;
+} */
+div#introduction-actions {
+    display: flex;
+    justify-content: center;
+}
+.nav{
+    border-bottom: 1px solid gray;
+    display: flex;
+    padding: 20px 40px;
+    justify-content: space-between;
+}
+.header-right{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.header-left{
+    width: 100%;
+    padding-right: 70px;
+    display: flex;
+    align-items: center;
+    
+}
+.introduction-text{
+    padding: 48px;
+}
+.introduction-actions{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+img#navbar-image{
+    width: 12em;
+}
+
+#form{
+    display: flex;
+    justify-content: center;
+}
+#form-top{
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+input{
+    width: 30%;
+    border: 1px solid grey;
+    border-radius: 0;
+    padding: 0.6em;
+    
+}
+select{
+    width: 30%;
+}
+
+@media (min-width: 2500px) {
+    html {
+        font-size: 30px;
+    }
+}
+
+@media (min-width:  3100px){
+    html{
+        font-size: 34px;
+    }
+}
