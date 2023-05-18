@@ -3,11 +3,12 @@ html{
     font-size: 16px;
 }
 body {
+    margin-top: 50px; 
     margin: 0;
 }
 
 p {
-    margin-right: 2em;
+    margin-right: 2.5em;
     font-size: 13px;
     line-height: 13px;
     font-weight: 500;
@@ -16,33 +17,102 @@ h1 {
     margin: 0px 400px;
     text-align: center;
 }
-button.redondo {
+.redondo {
     box-sizing: border-box;
     background-color: white;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 2em;
-    padding: 0 1.2em;
-    height: 2.2em;
-    font-size: 1em;
+    padding: 1em 1.2em;
+    font-size: 12px;
+    margin-left: 14px;
+    box-sizing: border-box;
+    align-items: center;
 }
-/* button{
+.redondo:hover {
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    border-radius: 2em;
+    padding: 1em 1.2em;
+    
+    font-size: 12px;
+    margin-left: 14px;
+    box-sizing: border-box;
+    align-items: center;
+    transition: all 0.1s ease-out;
+}
+.redondo-2 {
+    box-sizing: border-box;
+    background-color: white;
+    border: 2px solid #6b53f0;
+    border-radius: 2em;
+    padding: 1em 2em;
+    margin-left:10px ;
+    margin-right: 10px;
+    font-size: 12px;
+    margin-left: 14px;
+    box-sizing: border-box;
+    align-items: center;
+    color: #6b53f0;
+}
+.redondo-2:hover {
+    background-color: #6b53f0;
+    padding: 1em 2em;
+    color: white;
+    transition: all 0.1s ease-out;
+}
+.redondo-nav {
+    box-sizing: border-box;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 2em;
+    padding: 10px 20px;
+    font-size: 1em;
+    margin-right: 2em;
+    font-size: 12px;
+    width: 100px;
     display: flex;
     align-items: center;
-} */
+    font-weight: 500;
+    
+}
+.redondo-nav:hover{
+    background-color: black;
+    color: white;
+    transition: all 0.1s ease-out;
+}
+
+i{
+    margin-right: 1em;
+}
+
 div#introduction-actions {
     display: flex;
     justify-content: center;
 }
 .nav{
+    box-sizing: border-box;
+    position:fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 81px;
     border-bottom: 1px solid gray;
     display: flex;
     padding: 20px 40px;
     justify-content: space-between;
+    z-index: 9999;
+    background-color: white;
 }
 .header-right{
     display: flex;
     align-items: center;
     cursor: pointer;
+}
+.header-right p{
+    font-weight: 500;
 }
 .header-left{
     width: 100%;
@@ -52,7 +122,18 @@ div#introduction-actions {
     
 }
 .introduction-text{
+    box-sizing: border-box;
+    width: 100%;
+    height: 400px;
+    transform: translate(0px, 81px);
+    margin: 0 auto;
     padding: 48px;
+}
+
+.inner-text p{
+    width: 100%;
+    font-weight: 600;
+    font-size: 28px;
 }
 .introduction-actions{
     display: flex;
@@ -61,6 +142,30 @@ div#introduction-actions {
 }
 img#navbar-image{
     width: 12em;
+}
+.main-impact{
+    width: 100%;
+    height: 400px;
+    background-color: #201b24;
+}
+.main-impact p ,h2{
+    color: honeydew;
+    
+}
+.main-impact-container{
+    display: flex;
+    justify-content: center;
+    padding: 120px 30px 100px;
+}
+.main-impact-container-txt{
+    width: 416px;
+    padding: 0px 50px 0px 0px;
+    
+}
+
+p-impact{
+    font-size: 12px;
+    padding: 10px 10px;
 }
 
 #form{
