@@ -148,7 +148,11 @@ img#navbar-image{
     height: 400px;
     background-color: #201b24;
 }
-.main-impact p ,h2{
+.main-impact p{
+    color: honeydew;
+    
+}
+.main-impact h2{
     color: honeydew;
     
 }
@@ -166,6 +170,24 @@ img#navbar-image{
 p-impact{
     font-size: 12px;
     padding: 10px 10px;
+}
+
+.contact-image{
+    background-image: url(https://technologywithpurpose.org/wp-content/uploads/2022/11/twp-home.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-width: 0px;
+    border-style: solid;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 273px;
+    width: 100%;
+
+}
+
+.programas-container{
+    width: 100%;
+    height: 100vh;
 }
 
 #form{
